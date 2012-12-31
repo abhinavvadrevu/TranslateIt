@@ -1,0 +1,61 @@
+#speech_input {
+position:absolute;
+top:100px;
+left:50px;
+color: transparent;
+background-color: transparent;
+border: 1px;
+width: 15px;
+cursor: pointer;
+-webkit-transform: scale(5.0, 5.0);
+-moz-transform: scale(5.0, 5.0);
+-ms-transform: scale(5.0, 5.0);
+transform: scale(5.0, 5.0);
+}
+
+#input_text {
+position:absolute;
+top:200px;
+padding: 10px;
+height:150px;
+width:300px;
+background-color:grey;
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-size:30px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+#output_text {
+position:absolute;
+top:380px;
+padding: 10px;
+height:150px;
+width:300px;
+background-color:grey;
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-size:30px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+#language {
+position:absolute;
+top:0px;
+background-color:grey;
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-size:20px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+#about {
+background-color:grey;
+position:absolute;
+height:500px;
+width:270px;
+left:350px;
+padding: 10px;
+top:30px;
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-size:20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
